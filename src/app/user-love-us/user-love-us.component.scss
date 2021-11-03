@@ -1,0 +1,79 @@
+.user-love-section{
+  margin: 100px 0px;
+  background-color: lightsalmon;
+}
+.section-heading-user-love{
+  padding: 30px 0px 0px;
+}
+
+.slider-inner-div {
+
+  width: 73%;
+  margin: 0 auto;
+
+}
+.inner-content-div{
+
+  width: 100%;
+  float: left
+}
+.slider-inner-text{
+  margin-top: 25px;
+  width: 80%;
+  float: left;
+}
+.user-love-section .carousel-control-prev-icon {
+  background-image: url("../../assets/ios-arrow-forward_2.png");
+
+}
+
+.user-love-section .carousel-control-next-icon {
+  background-image: url("../../assets/ios-arrow-forward.png");
+
+}
+
+.user-love-section .carousel-control-next, .carousel-control-prev {
+  bottom: 0;
+  top: 90px;
+  border-radius: 50%;
+  width: 62px;
+  height: 62px;
+  background-color: #ffffff;
+
+  box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.24);
+  opacity: 1;
+}
+.user-love-section .carousel {
+
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px 0px 100px;
+}
+.user-love-section .carousel-indicators li {
+
+  width: 12px;
+  height: 12px;
+  margin-right: 5px;
+  margin-left: 5px;
+  border-radius: 50%;
+}
+.user-love-section .carousel-indicators .active {
+  width: 18px;
+  height: 18px;
+  opacity: 1;
+}
+img{
+  height: 70px;
+}
+
+@media only screen and (min-width: 1px) and (max-width: 786px){
+
+
+/* ====================befifits community section css start====================== */
+
+.user-love-section .carousel-control-next, .carousel-control-prev {
+bottom: 0;
+top: 122px;
+width: 60px;
+}
+}

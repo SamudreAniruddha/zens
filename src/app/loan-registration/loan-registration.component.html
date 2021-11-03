@@ -1,0 +1,109 @@
+<div class="container">
+  <h1>APPLICATION FORM </h1>
+  <form [formGroup]="form">
+   <div class="form-row align-items-center">
+    <div class="col-md-4 mb-3 ">
+      <label for="email_address">Email Address <b class="text-danger">*</b></label>
+      <input formControlName="email" type="email" class="form-control" [(ngModel)]="email_address" name="email_address">
+      <!-- <div *ngIf="form.get('email').hasError('required') && form.get('email').touched" class="text-danger">This field is required</div>
+        <div *ngIf="form.get('email').hasError('pattern') && form.get('email').touched" class="text-danger">Invalid email format.</div> -->
+    </div>
+
+
+    <div class="col-md-4 mb-3">
+      <label for="name">Name <b class="text-danger">*</b> </label>
+      <input formControlName="rankAndname" type="text" class="form-control"  [(ngModel)]="name" name="name">
+      <!-- <div *ngIf="form.get('rankAndname').hasError('required') && form.get('rankAndname').touched" class="text-danger">This field is required</div> -->
+    </div>
+
+   <div class="col-md-4 mb-3">
+      <label for="present_address">Present  Address <b class="text-danger">*</b> </label>
+      <input formControlName="presentAddress" type="text" class="form-control"  [(ngModel)]="present_address" name="present_address" >
+      <!-- <div *ngIf="form.get('presentAddress').hasError('required') && form.get('presentAddress').touched" class="text-danger">This field is required</div> -->
+    </div>
+
+     <div class="col-md-4 mb-3">
+      <label for="contact_no">Contact No <b class="text-danger">*</b> </label>
+      <input formControlName="contactNo" minlength="10" maxlength="10" type="text" class="form-control"  [(ngModel)]="contact_no" name="contact_no">
+      <!-- <div *ngIf="form.get('contactNo').hasError('required') && form.get('contactNo').touched" class="text-danger">This field is required</div>
+    <div *ngIf="form.get('contactNo').hasError('pattern') && form.get('contactNo').touched" class="text-danger">Invalid mobile number. (This field allow only digits with 10, and 11 if number start with 0)</div> -->
+    </div>
+
+    <div class="col-md-4 mb-3">
+      <label for="dcm_date">Date <b class="text-danger">*</b> </label>
+      <input formControlName="dcmDate" type="date" class="form-control" [(ngModel)]="dcm_date" name="dcm_date">
+      <!-- <div *ngIf="form.get('dcmDate').hasError('required') && form.get('dcmDate').touched" class="text-danger">This field is required</div> -->
+    </div>
+
+
+   </div>
+   <br>
+
+
+
+
+   <br>
+
+     <br>
+
+    <div class="form-row align-items-center">
+
+
+
+
+<br>
+
+  <div class="form-row align-items-center">
+      <div class="col-md-4 mb-3">
+
+    <button [disabled]="form.invalid" (click)="onSubmit()" type="button" class="btn btn-primary btn-lg " (click)="submit(email_address,  name, present_address, contact_no)">Submit</button>
+  </div>
+
+</div>
+</div>
+  </form>
+</div>
+
+
+
+
+
+<!-- open a modal window by clicking button  basic bootstrap-->
+
+
+
+
+
+<div class="backdrop" [ngStyle]="{'display':display}"></div>
+
+<div class="modal" tabindex="-1" role="dialog"  [ngStyle]="{'display':display}">
+
+ <div class="modal-dialog" role="document">
+
+   <div class="modal-content">
+
+     <div class="modal-header">
+
+       <button type="button" class="close" aria-label="Close" ><span aria-hidden="true">&times;</span></button>
+
+    
+
+     </div>
+
+     <div class="modal-body">
+
+       <h4>{{result}}</h4>
+
+     </div>
+
+     <div class="modal-footer">
+
+       <button type="button" class="btn btn-success" >Ok</button>
+
+     </div>
+
+   </div><!-- /.modal-content -->
+
+ </div><!-- /.modal-dialog -->
+
+</div><!-- /.modal !-->

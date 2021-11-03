@@ -1,0 +1,151 @@
+
+.about-us-bg-overlay {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #000000), url("../../assets/about-us-imgs/about-hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 700px;
+  display: grid;
+  align-items: center;
+
+
+}
+
+
+.about-hero-text {
+
+  width: 50%;
+  float: left;
+}
+
+.our-story-div h4{
+
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.44;
+  color: #333333;
+}
+
+.our-story-div h2{
+  font-weight: bold;
+  padding: 15px 0px;
+}
+
+.about-hero-text h1{
+  font-size: 48px;
+  font-weight: bold;
+
+}
+
+.about-hero-text h3{
+  font-size: 24px;
+  font-weight: normal;
+}
+.home-txt{
+  font-size: 18px;
+font-weight: bold;
+color: #1d1d1b;
+
+}
+.our-value-text p{
+  font-size: 18px;
+  line-height: 1.44;
+  color: #000000;
+  width: 80%
+}
+.our-value-text h2{
+  text-align: left;
+  padding-bottom: 20px;
+
+}
+.our-story-main-div{
+  padding: 30px 0px;
+
+}
+
+.contact-us-main-div{
+  text-align: center;
+}
+.contact-us-text p{
+  font-size: 18px;
+  line-height: 1.22;
+  color: #666666;
+  padding: 20px 100px;
+
+}
+.contact-us-text h6{
+  padding-top: 21px;
+
+}
+
+
+.history-section-main-div .about-us-history-section-bg-1 {
+  background: linear-gradient(0deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../../assets/about-us-imgs/history-section-bg-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 392px;
+}
+
+
+.history-section-main-div .about-us-history-section-bg-2 {
+  background: linear-gradient(0deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../../assets/about-us-imgs/history-section-bg-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 392px;
+}
+.history-section-main-div .history-section-bg-text p{
+
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.44;
+  text-align: center;
+}
+.history-section-main-div .history-section-bg-text{
+padding: 50px 70px 0px;
+}
+.history-section-main-div .col-12{
+  padding-right: 0;
+  padding-left: 0;
+
+}
+.history-section-main-div .row{
+ padding: 0px 15px;
+
+}
+.history-section-bg-text h2{
+  padding-bottom: 30px;
+
+}
+.our-story-section-top-left{
+  padding: 20px 0px;
+}
+.about-hero-text h1{
+  padding-bottom: 15px;
+
+}
+.demo{
+background-color: rgb(89, 109, 59);
+}
+
+@media only screen and (min-width: 1px) and (max-width: 480px){
+  .contact-us-text p {
+
+      padding: 20px 50px;
+  }
+  .history-section-main-div .history-section-bg-text {
+      padding: 50px 0px 0px;
+  }
+  .about-hero-text {
+      width: 100%;
+
+  }
+  .about-us-bg-overlay {
+
+      height: auto;
+
+
+  }
+}

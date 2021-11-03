@@ -1,1 +1,758 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+body {
+  font-family: 'Lato', sans-serif !important;
+  font-weight: 400;
+  color: #1d1d1b;
+
+}
+
+.container-fluid {
+  width: 90% !important;
+
+}
+
+h1{
+  font-size: 36px;
+  font-weight: 900;
+}
+h2{
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+h3{
+  font-size: 24px;
+  font-weight: bold;
+}
+h4 {
+  font-size: 18px;
+  font-weight: bold;
+
+}
+h5{
+
+  font-size: 14px;
+  font-weight: normal;
+}
+h6{
+  font-size: 26px;
+  font-weight: bold;
+
+}
+p{
+font-size: 16px;
+font-weight: normal;
+
+}
+.p-bold{
+  font-weight: bold;
+}
+.clear{
+  clear: both;
+  height: 0px;
+  }
+.clear-10{
+  clear: both;
+  height: 10px;
+  }
+  .clear-20{
+      clear: both;
+      height: 20px;
+  }
+  .clear-30{
+      clear: both;
+  height: 30px;
+  }
+.section-heading{
+  padding: 30px 0px;
+}
+
+.section-margin {
+  margin: 100px 0px;
+
+
+}
+
+
+.hero-text{
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.about-bg {
+
+  background: url("../src/assets/about-us-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  width: 71%;
+  height: 617px;
+  display: inline-block;
+  box-shadow: 0 28px 30px 0 rgba(0, 0, 0, 0.3);
+
+}
+.about-bg-text{
+  padding: 423px 200px 0px 200px;
+  float: left;
+  text-align: left;
+}
+.home-bg-overlay {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #000000), url("../src/assets/hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 700px;
+
+
+}
+
+
+.white-text{
+  color: #ffffff;
+}
+.faint-text{
+  color: #666666;
+}
+
+.green-text{
+  color: #77b82b;
+}
+.black-text{
+  color: #1d1d1b;
+}
+
+.comman-btn{
+  border-radius: 4px;
+background-color: #77b82b;
+
+}
+.orange-gradient{
+  background-image: linear-gradient(124deg, #ef7d00, #ffc380);
+}
+.black-gradient-bottom{
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #000000);
+}
+
+
+  .mid-section{
+      bottom: -90px;
+      position: absolute;
+      left: 0px;
+      right: 0px;
+      margin: 0 auto;
+      width: 80%;
+  }
+  .comman-btn{
+      border-radius: 4px;
+    background-color: #77b82b;
+
+  }
+  .formMain{
+      width: 80%;
+      margin: 0 auto;
+  }
+
+  .form-control {
+      font-size: 14px;
+      font-weight: normal;
+      color: rgba(0, 0, 0, 0.47);
+      border-radius: 4px;
+      background-color: #f7f7f7;
+
+    }
+  .contact-form {
+      border-radius: 10px;
+      box-shadow: 0 28px 30px 0 rgba(0, 0, 0, 0.1);
+      background-color: #ffffff;
+      width: 100%;
+      padding: 30px;
+
+  }
+
+  .input-colum{
+      float: left;
+      width: 23%;
+      padding-right: 20px;
+  }
+  .go-btn{
+      float: left;
+
+      font-size: 14px;
+      border-radius: 5px;
+
+      color: #ffffff;
+  }
+
+  .go-btn button{
+
+      font-size: 14px;
+
+      color: #ffffff;
+  }
+  .form-heading{
+      padding-bottom: 30px;
+  }
+
+  .about-section {
+      margin-top: 175px;
+  }
+
+.call_icon{
+  float: left;
+  margin-right: 10px;
+}
+
+/* =================leadership team css start============================= */
+
+.lead-team-bg{
+  height: auto;
+
+  padding: 50px 0px;
+}
+.div-col{
+
+  text-align: center;
+}
+.leadership-section{
+  margin-bottom: 100px;
+}
+.leadership_main{
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 40px
+}
+.team-card-img .circle-img{
+  border-radius: 50%;
+  width: 50%;
+  margin-bottom: -24%;
+}
+.team-card-text {
+
+border-radius: 5px;
+box-shadow: 0 28px 30px 0 rgba(0, 0, 0, 0.3);
+background-color: #ffffff;
+padding: 151px 2px 30px 40px;
+text-align: left;
+height: 547px;
+
+
+}
+.team-card-text h3{
+padding-bottom: 20px;
+}
+
+.team-card-text h4{
+  padding-bottom: 12px;
+  }
+
+
+/* .team-card-text p{
+
+font-size: 16px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+line-height: 1.63;
+letter-spacing: normal;
+text-align: left;
+color: #666666;
+height: 200px;
+width: 80%;
+}
+.team-card-text h5{
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.21;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1d1d1b;
+  padding-bottom: 30px;
+}
+.team-card-text h6{
+  object-fit: contain;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1d1d1b;
+padding-bottom: 30px;
+} */
+
+
+.read-bio{
+  text-align: left;
+  padding: 30px 0px;
+}
+.read-bio a{
+  font-family: Lato Black;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: left;
+  color: #77b82b;
+
+}
+
+
+.scrollbar-one
+{
+  /* overflow-y: scroll; */
+  overflow: hidden;
+  width: 100%;
+  height: 184px;
+}
+
+.scrollbar-two
+{
+  /* overflow-y: scroll; */
+  height: 184px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.scroll-hide-one{
+  display: block;
+}
+
+.scroll-hide-two{
+  display: block;
+}
+.leadership_main p{
+  height: 184px;
+  padding-right: 32px;
+}
+.leadership-desig{
+
+  height: 40px;
+  padding-bottom: 60px;
+}
+
+
+#style-1::-webkit-scrollbar-track
+{
+-webkit-box-shadow: inset 0 0 6px rgba(32, 19, 19, 0.3);
+  width: 10px;
+  height: 22px;
+  object-fit: contain;
+  border-radius: 139px;
+
+ }
+
+#style-1::-webkit-scrollbar
+{
+width: 9px;
+  background-color: #F5F5F5;
+
+}
+
+#style-1::-webkit-scrollbar-thumb
+{
+
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #f1ecec;;
+
+}
+/* ============== */
+
+#style-2::-webkit-scrollbar-track
+{
+-webkit-box-shadow: inset 0 0 6px rgba(32, 19, 19, 0.3);
+  width: 10px;
+  height: 22px;
+  object-fit: contain;
+  border-radius: 139px;
+
+  background-color: #ffffff;
+}
+
+#style-2::-webkit-scrollbar
+{
+width: 9px;
+  background-color: #F5F5F5;
+
+}
+
+#style-2::-webkit-scrollbar-thumb
+{
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #f1ecec;;
+
+}
+
+/* =============mission visssion div================ */
+.mv-div{
+  object-fit: contain;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px 0 rgba(218, 218, 218, 0.5);
+  background-color: #ffffff;
+}
+.mv-div{
+  width: 100%;
+  float: left;
+  margin-bottom: 100px;
+}
+.mv-img{
+  width: 32%;
+  float: left;
+}
+
+.mv-img img{
+border-radius: 5px;
+}
+.mv-text{
+  width: 68%;
+  float: right;
+  padding: 46px 163px 0px 36px;
+}
+.mv-text p{
+  font-size: 16px;
+
+  color: #666666;
+}
+
+
+
+/* =================leadership team home page css end============================= */
+
+/* ====================services home page css start=========================== */
+.services-bg{
+  background: linear-gradient(0deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("../src/assets/services-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 40px 0px;
+}
+.service-icon-title{
+margin: 0 auto;
+width: 50%;
+margin-top: 20px;
+}
+.section-heading-service{
+  padding-bottom: 30px;
+}
+
+/* =================featured project section css============= */
+.featured-section .img-label-outer{
+  background-color: #77b82b;
+  padding: 9px 20px;
+}
+.featured-section .img-label-outer h4{
+  margin-bottom: 0;
+}
+.featured-section .left-side-title{
+  float: left;
+}
+.featured-section .right-side-title{
+  float: right;
+}
+.featured-section .card{
+
+  border-radius: 5px;
+  box-shadow: 0 2px 10px 0 rgba(218, 218, 218, 0.5);
+}
+.featured-section .card-text{
+  color: #666666;
+ }
+ .featured-section  .card-body {
+  padding: 7px 20px;
+}
+.featured-section .card-text:last-child {
+  margin-bottom: 32px;
+}
+.featured-section .card-footer {
+
+border-top: none;
+background-color: #ffff;
+padding-bottom: 40px
+}
+.vertical-right-border{
+border-left: 1px solid #ebe1e1;
+}
+.small, small {
+  font-size: 100%;
+
+}
+.colText-first{
+  text-align: left;
+}
+.colText {
+  text-align: center;
+}
+
+.card__one {
+  transition: transform 0.5s;
+}
+.card__one::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+  content: "";
+  opacity: 0;
+  z-index: -1;
+}
+.card__one:hover, .card__one:focus {
+    cursor: pointer;
+  transform: scale3d(1.006, 1.006, 1);
+}
+.card__one:hover::after, .card__one:focus::after {
+  opacity: 1;
+}
+
+
+
+/* ====================services home page css end=========================== */
+
+/* =================fill-here section css (benifits of cummunity main section============= */
+.fill-here-section{
+  margin: 50px 0px;
+}
+.fill-here-bg{
+  background: url("../src/assets/fill-here-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  height: 474px;
+  background-color: #f5f5f5;
+  display: grid;
+  align-items: center;
+}
+.fill-here-text{
+  /* padding: 181px 800px 0px 0px; */
+  float: left;
+  width: 40%;
+}
+.fill-text-heading{
+  padding-bottom: 20px;
+  text-align: left;
+
+}
+
+/* ================= user-love-us-section-css start====================== */
+
+/* ================= news-css start====================== */
+.news-section{
+  margin: 100px 0px;
+}
+
+/* ================= news-section-css start====================== */
+
+
+/* Float Shadow */
+.float-shadow {
+  display: inline-block;
+  position: relative;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  -webkit-tap-highlight-color: transparent;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px transparent;
+}
+.float-shadow:before {
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+  content: '';
+  top: 100%;
+  left: 5%;
+  height: 10px;
+  width: 90%;
+  opacity: 0;
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+  /* W3C */
+  transition-duration: 0.3s;
+  transition-property: transform opacity;
+}
+.float-shadow:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+  /* move the element up by 5px */
+}
+.float-shadow:hover:before {
+  opacity: 1;
+  transform: translateY(5px);
+  /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
+}
+
+
+.hover {
+  display: inline-block;
+  transition-duration: .5s;
+  transition-property: transform;
+  -webkit-tap-highlight-color: transparent;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px transparent;
+}
+.hover:hover {
+  transform: translateY(-6px);
+  animation-name: hover;
+  animation-duration: 1.5s;
+  animation-delay: 0.3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  cursor: pointer;
+}
+
+/* SHADOW/GLOW TRANSITIONS */
+/* Glow */
+.glow {
+  display: inline-block;
+  transition-duration: 0.3s;
+  transition-property: box-shadow;
+  -webkit-tap-highlight-color: transparent;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px transparent;
+}
+.glow:hover {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+
+
+/* ==================== Media quary start  =========*/
+
+  @media only screen and (min-width: 1px) and (max-width: 786px){
+      .mv-text{
+          padding: 34px 0px 0px 86px;
+      }
+
+
+/* ====================befifits community section css start====================== */
+
+/*
+.benefits-section .carousel-control-next, .carousel-control-prev {
+  bottom: 0;
+  top: 222px !important;
+  width: 60px;
+}
+
+.benefits-section .carousel-control-next {
+  right: 0;
+
+}
+.user-love-section .carousel-control-next, .carousel-control-prev {
+  bottom: 0;
+  top: 122px !important;
+  width: 60px;
+}
+.news-section .carousel-control-next, .carousel-control-prev {
+  bottom: 0;
+  top: 125px !important;
+  width: 60px;
+}
+
+.carousel-control-next {
+  right: 0;
+
+} */
+
+.fill-here-text{
+  padding: 0 0 0 30px;
+  float: left;
+  width: 80%;
+}
+
+/* ====================befifits community section css end====================== */
+      }
+
+      @media only screen and (min-width: 1px) and (max-width: 480px){
+
+          .about-bg{
+              width: 100%;
+              height: 478px;
+          }
+  .about-bg-text{
+      padding: 348px 124px 0px 31px;
+      float: left;
+      text-align: left;
+      height: 426px;
+      display: flex;
+      flex-flow: column wrap;
+      overflow: hidden;
+}
+
+          .input-colum{
+              float: left;
+              width: 50%;
+             padding: 10px;
+          }
+          .go-btn{
+              float: left;
+              margin: 0 auto;
+          }
+          .contact-form {
+
+              padding: 10px;
+
+          }
+
+          .leadership_main{
+              width: 100%;
+
+          }
+          .mv-text{
+              padding: 34px 0px 0px 56px;
+          }
+          .mv-img img{
+              width: 151px;
+              height: 268px;
+          }
+          .service-icon-div{
+              margin-top: 65px;
+          }
+          .service-icon-title{
+              width: 79%;
+
+          }
+          .benefits-section .card {
+
+              height: 447px;
+          }
+
+
+.sticky + .content {
+  padding-top: 0px;
+}
+
+.services-bg-overlay {
+
+  height: 325px;
+
+}
+/* ====================emi community section css end====================== */
+.emi-section .vertical-right-border{
+  border-bottom: 1px solid #ebe1e1;
+  border-left: none;
+  }
+
+
+
+  .emi-section .emi-info-img{
+
+  margin-right: 0;
+
+  }
+      }
+
+      @media only screen and (min-width: 1px) and (max-width: 320px){
+
+
+      }
+/* ==================== Media quary end  =========*/

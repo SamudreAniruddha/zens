@@ -1,0 +1,208 @@
+<div class="jumbotron jumbotron-fluid home-bg-overlay text-center">
+
+
+  <div class="mid-section">
+      <div class="hero-text white-text">
+          <h1>Welcome to Angular Web Application</h1>
+          <a (click)="fillhereRedirect()"><h4 class="green-text primary float-shadow">FILL HERE</h4></a>
+        </div>
+      <form class="contact-form ">
+        <div class="form-heading">
+        <h3>Contact us to get the best offer!</h3>
+      </div>
+          <!-- <div class="form-row">
+            <div class="form-group col-md-2">
+
+              <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+            </div>
+            <div class="form-group col-md-2">
+
+              <input type="text" class="form-control" id="inputPassword4" placeholder="Name">
+            </div>
+          </div>
+          <div class="form-group col-md-2">
+
+            <input type="text" class="form-control" id="inputAddress" placeholder="Phone Number">
+          </div>
+          <div class="form-group col-md-2">
+
+              <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="3"></textarea>
+            </div> -->
+
+            <div class="form-row formMain">
+
+                <div class="input-colum">
+
+                  <input type="text" class="form-control" id="validationCustom01" placeholder="Name">
+
+                </div>
+                <div class="input-colum">
+
+                  <input type="text" class="form-control" id="validationCustom02" placeholder="Phone No.">
+
+                </div>
+                <div class="input-colum">
+
+                    <input type="email" class="form-control" id="validationCustom02" placeholder="Email">
+
+                  </div>
+                  <!-- <div class="input-colum">
+
+                      <input type="text" class="form-control" id="validationCustom02" placeholder="Message">
+
+                    </div> -->
+
+                    <div class="go-btn glow">
+          <button type="button" class="btn comman-btn btn-success">GO</button>
+        </div>
+
+            </div>
+        </form>
+      </div>
+
+
+
+
+
+
+
+<!-- open a modal window by clicking button  basic bootstrap-->
+
+
+
+
+
+<div class="backdrop" [ngStyle]="{'display':display}"></div>
+
+<div class="modal" tabindex="-1" role="dialog"  [ngStyle]="{'display':display}">
+
+ <div class="modal-dialog" role="document">
+
+   <div class="modal-content">
+
+     <div class="modal-header">
+
+       <button type="button" class="close" aria-label="Close" (click)="onCloseHandled()"><span aria-hidden="true">&times;</span></button>
+
+    
+
+     </div>
+
+     <div class="modal-body">
+
+<!--        <h4>{{result}}</h4> -->
+
+     </div>
+
+     <div class="modal-footer">
+
+       <button type="button" class="btn btn-success" (click)="onCloseHandled()" >Ok</button>
+
+     </div>
+
+   </div><!-- /.modal-content -->
+
+ </div><!-- /.modal-dialog -->
+
+</div><!-- /.modal !-->
+
+</div>
+
+  <!-- <div class="form-social-ico-div">
+      <img width="30" height="30"src="../../assets/twitter.png" alt="twitter">
+    <img width="30" height="30"src="../../assets/facebook.png" alt="facebook">
+
+  </div>
+-->
+<app-user-love-us></app-user-love-us>
+
+<app-leadership-team></app-leadership-team>
+
+
+<section class="about-section">
+<div class="container-fluid text-center about-bg-container">
+  <h2 class="section-heading">About Us</h2>
+  <div class="about-bg">
+      <div class="about-bg-text">
+        <p>
+          We are Happy To Help You
+         </p>
+        </div>
+  </div>
+
+
+
+
+  </div>
+</section>
+
+<section>
+   <div class="services-bg">
+       <div class="container-fluid white-text">
+         <div class="main-div-services">
+           <h2 class="section-heading-service">Services</h2>
+         <div class="row text-center services-row-div">
+
+                          <div class="col-6 col-sm-12 hover">
+             <div (click)="homeCustomization()">
+               <div class="service-icon-div">
+                 <img src="../../assets/home-cunsomization.png">
+               </div>
+               <div class="service-icon-title">
+               <h6>Home Customization</h6>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+     </div>
+</section>
+
+<section>
+
+   <app-featured-projects></app-featured-projects>
+   <app-news></app-news>
+
+   <app-benefits-of-community></app-benefits-of-community>
+
+<!-- <app-emi-calculator></app-emi-calculator> -->
+<!-- <div class="container">
+<div class="col-md-8 col-md-offset-2">
+<div class="carousel slide multi-item-carousel" id="theCarousel">
+ <div class="carousel-inner carousel-inner-2">
+   <div class="item active">
+     <div class="col-xs-4"><a href="#1"><img src="http://placehold.it/300/f44336/000000" class="img-responsive"></a></div>
+   </div>
+   <div class="item">
+     <div class="col-xs-4"><a href="#1"><img src="http://placehold.it/300/e91e63/000000" class="img-responsive"></a></div>
+   </div>
+   <div class="item">
+     <div class="col-xs-4"><a href="#1"><img src="http://placehold.it/300/9c27b0/000000" class="img-responsive"></a></div>
+   </div>
+   <div class="item">
+     <div class="col-xs-4"><a href="#1"><img src="http://placehold.it/300/673ab7/000000" class="img-responsive"></a></div>
+   </div>
+   <div class="item">
+     <div class="col-xs-4"><a href="#1"><img src="http://placehold.it/300/4caf50/000000" class="img-responsive"></a></div>
+   </div>
+   <div class="item">
+     <div class="col-xs-4"><a href="#1"><img src="http://placehold.it/300/8bc34a/000000" class="img-responsive"></a></div>
+   </div>
+ </div>
+ <a class="left carousel-control" href="#theCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+ <a class="right carousel-control" href="#theCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+</div>
+</div>
+</div> -->
+
+   <!-- <app-services></app-services>
+   <app-featured-projects></app-featured-projects> -->
+<!-- <app-benefits-of-community></app-benefits-of-community> -->
+</section>
+<!--
+
+
+-->
+
+

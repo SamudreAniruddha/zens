@@ -1,0 +1,73 @@
+::ng-deep .custom-slider .ng5-slider .ng5-slider-pointer {
+  outline: none;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.22);
+}
+
+::ng-deep .custom-slider .ng5-slider .ng5-slider-pointer.ng5-slider-active:after {
+  background-color: #77b82b;
+}
+::ng-deep .custom-slider .ng5-slider-inner-tooltip {
+  font-size: 18px;
+  font-weight: bold;
+  color: #999999
+}
+
+::ng-deep .custom-slider .ng5-slider .ng5-slider-tick-value {
+  top: 21px;
+}
+
+.emi-section .emi-subtitle-div{
+  float: left;
+  width: 100%;
+
+}
+.emi-section .emi-slider-div{
+margin-bottom: 72px;
+}
+.emi-section .emi-subtitle-div .right-side-title{
+  border-radius: 5px;
+  border: solid 1px #979797;
+  background-color: #f3f3f3;
+  padding: 10px 25px;
+  float: right;
+  margin: 0 auto;
+
+}
+.emi-section .calculation-emi-div{
+  border-radius: 5px;
+box-shadow: 0 2px 10px 0 rgba(218, 218, 218, 0.5);
+}
+.emi-section .calculation-emi-div h4{
+  color: #999999;
+}
+.emi-section .total-payment{
+  font-size: 32px;
+  font-weight: bold;
+
+  color: #1d1d1b;
+}
+.emi-section .emi-footer{
+  border-top: 1px solid #ebe1e1;;
+}
+.emi-section .emi-footer h5{
+  font-size: 14px;
+font-weight: bold;
+
+color: #999999;
+}
+
+.emi-section .emi-footer h6{
+  font-size: 20px;
+  font-weight: bold;
+
+}
+.emi-section .emi-lower-div, .emi-upper-div{
+  padding: 70px 55px;
+}
+.emi-section .emi-info-img{
+  float: right;
+  margin-right: 118px;
+  margin-top: 10px;
+}
+
+

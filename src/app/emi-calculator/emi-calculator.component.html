@@ -1,0 +1,74 @@
+
+
+<section class="emi-section">
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-12 col-md-6">
+
+
+              <div class="emi-slider-div">
+              <div class="emi-subtitle-div">
+                  <h3 class="left-side-title">Loan Amount</h3>
+                  <h3 class="right-side-title">{{loanAmount}} Cr</h3>
+              </div>
+              <!-- <div class="custom-slider">
+                  <ng5-slider (click)="calculateEmi(loanAmount,Tenure,InterestRate)" [(value)]="loanAmount" [options]="options" ></ng5-slider>
+              </div> -->
+          </div>
+          <div class="emi-slider-div">
+              <div class="emi-subtitle-div">
+                  <h3 class="left-side-title">Tenure</h3>
+                  <h3 class="right-side-title">{{Tenure}} Yrs</h3>
+              </div>
+              <!-- <div class="custom-slider">
+                  <ng5-slider (click)="calculateEmi(loanAmount,Tenure,InterestRate)" [(value)]="Tenure" [options]="options2"></ng5-slider>
+              </div> -->
+          </div>
+          <div class="emi-slider-div">
+                  <div class="emi-subtitle-div">
+                      <h3 class="left-side-title">Interest Rate</h3>
+                      <h3 class="right-side-title">{{InterestRate}} %</h3>
+                  </div>
+                  <!-- <div class="custom-slider">
+                      <ng5-slider (click)="calculateEmi(loanAmount,Tenure,InterestRate)" [(value)]="InterestRate" [options]="options3"></ng5-slider>
+                  </div> -->
+              </div>
+          </div>
+          <div class="col-12 col-md-6">
+              <div class="calculation-emi-div">
+                  <div class="emi-upper-div">
+                      <h3>Total Payment</h3>
+                      <h4>Principal + Interest</h4>
+                      <b class="total-payment">&#8377; {{totalPayment}}</b><a href=""><img class="emi-info-img" src="../../assets/emi-info.png" alt=""></a>
+                  </div>
+                      <div class="emi-footer">
+
+                    <div class="emi-lower-div">
+                      <div class="row">
+                          <div class="col-12 col-sm-4">
+                                  <h5>EMI</h5>
+                                  <h6>&#8377; {{emi}}</h6>
+
+                          </div>
+                          <div class="col-12 col-sm-4 vertical-right-border">
+                                  <h5>Principal Amount</h5>
+                                  <h6>&#8377; {{pAmount}}</h6>
+
+                              </div>
+                              <div class="col-12 col-sm-4 vertical-right-border">
+                                      <h5>Interest Payable</h5>
+                                      <h6>&#8377; {{interstPayble}}</h6>
+
+
+                                  </div>
+
+                      </div>
+
+                  </div>
+                  </div>
+
+              </div>
+          </div>
+      </div>
+  </div>
+  </section>

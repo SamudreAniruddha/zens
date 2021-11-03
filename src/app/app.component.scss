@@ -1,0 +1,188 @@
+
+
+
+/*====================
+	Footer
+====================== */
+
+/* Main Footer */
+
+.navbar {
+  padding: 15px 0px;
+
+
+}
+.bg-dark {
+  background-color: rgb(67, 175, 130) !important;
+  box-shadow: 0 2px 4px 0 rgba(179, 179, 179, 0.5);
+
+}
+.navbar-dark .navbar-toggler {
+  transition: height 200ms;
+  outline: none;
+}
+.navbar-dark .navbar-nav .nav-link{
+  font-size: 14px;
+  text-align: left;
+  color: #1d1d1b;
+  font-weight: 400;
+  margin: 0px 20px;
+}
+/*
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  background-color: #ffffff;
+  z-index: 999999;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+.navbar-toggler{
+    outline: none;
+} */
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("../assets/thumb.png");
+  outline: none;
+}
+
+.subscribe-fbtn{
+  padding: 10px 0px;
+
+}
+.last{
+  padding: 10px 20px !important;
+   border-radius: 4px;
+   background-color: #77b82b;
+   font-size: 16px;
+   font-weight: bold;
+   font-style: normal;
+   font-stretch: normal;
+   line-height: 1.19;
+   letter-spacing: normal;
+   text-align: left;
+   color: #ffffff !important;
+
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  margin: 8px 26px;
+
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+  border-bottom: 2px solid #ef7d00;
+  font-weight: bold;
+
+}
+
+.my-Nav {
+  background-color: transparent;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all 0.5s;
+  transition: all .5s;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999999;
+  width: 100%;
+}
+.compress-nav {
+  padding: 5px 0px;
+
+  box-shadow: 0px 0px 10px #ccc;
+}
+
+
+
+
+.footer-section{
+  font-family: Lato;
+  background-color: #1d1d1b;
+  color: #ffffff;
+
+}
+.footer-section .footer-title-div{
+
+padding: 60px 0px 30px;
+}
+.footer-section ul li{
+  list-style: none;
+  padding: 2px 0px;
+}
+
+.footer-section ul li a{
+  list-style: none;
+ outline: none;
+
+
+color: #ffffff;
+}
+
+.footer-section ul li a:hover{
+  text-decoration: none;
+}
+.footer-section dl, ol, ul {
+ padding: 0;
+}
+.footer-section .footer-title-div h3{
+
+  font-size: 18px;
+  font-weight: normal;
+  text-align: left;
+
+}
+.footer-sub-title-div .footer-submit-btn .comman-btn{
+  padding: 5px 13px
+}
+.footer-sub-title-div .footer-submit-btn{
+  padding: 10px 0px;
+
+}
+
+.footer-section .footer-logo{
+  float: left;
+  width: 100%;
+  padding-top: 50px;
+}
+.footer-section .copy-rigth-div{
+  width: 100%;
+  float: left;
+  text-align: center;
+  padding: 30px 0px 30px;
+
+}
+
+.footer-section .copy-rigth-div p{
+
+font-size: 14px;
+font-weight: normal;
+
+color: #ffffff;
+
+}
+
+/* ==================== Media quary start  =========*/
+
+@media only screen and (min-width: 1px) and (max-width: 786px){
+
+
+}
+
+@media only screen and (min-width: 1px) and (max-width: 480px){
+
+}
+
+@media only screen and (min-width: 1px) and (max-width: 320px){
+
+
+}
+/* ==================== Media quary end  =========*/
+
+
+
+
